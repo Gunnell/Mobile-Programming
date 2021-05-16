@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+
+
+    <EditText
+        android:id="@+id/questionTextU"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11U" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7U"
+        android:layout_width="335dp"
+        android:layout_height="324dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="22dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/right_answerU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="58dp"
+            android:layout_height="304dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="A)"
+                android:textColor="#090909"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="30dp"
+                android:text="B)"
+                android:textColor="#050505"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="C)"
+                android:textColor="#040303"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="30dp"
+                android:text="D)"
+                android:textColor="#040303"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="E)"
+                android:textColor="#040303"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3U"
+            android:layout_width="261dp"
+            android:layout_height="310dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/answer_AU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/answer_BU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/answer_CU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/answer_DU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/answer_EU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView11U"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="172dp"
+        android:text="Question:"
+        android:textColor="#CF0808"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12U"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="12dp"
+        android:text="Answers:"
+        android:textColor="#CF0606"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7U"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13U"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="38dp"
+        android:text="Right Answer:"
+        android:textColor="#BA0A0A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/update_buttonU"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/right_answerU"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="38dp"
+        android:text=""
+        android:textColor="#040303"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cancel_buttonU"
+        app:layout_constraintStart_toEndOf="@+id/textView13U" />
+
+    <ImageButton
+        android:id="@+id/attachmentButtonU"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="126dp"
+        android:onClick="getAttachment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/right_answerU"
+        app:srcCompat="@drawable/ic_baseline_attach_file_24" />
+
+    <Button
+        android:id="@+id/update_buttonU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="update"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancel_buttonU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="cancel"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/update_buttonU" />
+
+
+</android.support.constraint.ConstraintLayout>

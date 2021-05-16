@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login</string>
+    
+    <string-array name="levels">
+       <item>Easy</item>
+        <item>Moderate</item>
+        <item>Hard</item>
+        <item>Tough</item>
+    </string-array>
+    
+    
+</resources>
