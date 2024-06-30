@@ -12,7 +12,7 @@ This is an Android application designed for creating, managing, and answering qu
 
 ## Screenshots
 
-## Screenshots
+
 
 ### Login Screen
 <img src="screenshots/login_screen.png" alt="Login Screen" width="300" />
@@ -42,3 +42,8 @@ This is an Android application designed for creating, managing, and answering qu
 
    ```bash
    git clone link
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
