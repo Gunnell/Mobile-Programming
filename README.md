@@ -12,20 +12,22 @@ This is an Android application designed for creating, managing, and answering qu
 
 ## Screenshots
 
-### Login Screen
-![Login Screen](screenshots/login_screen.png)
+## Screenshots
 
 ### Login Screen
-![Sign Up Screen](screenshots/signup_screen.png)
+<img src="screenshots/login_screen.png" alt="Login Screen" width="300" />
+
+### Sign Up Screen
+<img src="screenshots/signup_screen.png" alt="Sign Up Screen" width="300" />
 
 ### Main Menu
-![Main Menu](screenshots/main_menu.png)
+<img src="screenshots/main_menu.png" alt="Main Menu" width="300" />
 
 ### Create Question
-![Create Question](screenshots/create_question.png)
+<img src="screenshots/create_question.png" alt="Create Question" width="300" />
 
-### Create Question
-![Create Question](screenshots/create_exam.png)
+### Create Exam
+<img src="screenshots/create_exam.png" alt="Create Exam" width="300" />
 
 ## Getting Started
 
