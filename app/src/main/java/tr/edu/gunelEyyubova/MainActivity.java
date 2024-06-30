@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
        else if(password.getText().toString().length()<8) {
            Toast.makeText(MainActivity.this, "Password should contain at least 8 characters !",
                    Toast.LENGTH_SHORT).show();
+
+
        }
 
 

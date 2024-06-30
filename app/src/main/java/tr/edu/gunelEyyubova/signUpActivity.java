@@ -278,11 +278,13 @@ public class signUpActivity extends AppCompatActivity {
             Toast.makeText(signUpActivity.this,"Password should contain at least 8 characters !",
                     Toast.LENGTH_SHORT).show();
 
+
             return false;
         }
         else if(passWord2.getText().toString().length()<8){
             Toast.makeText(signUpActivity.this,"Password should contain at least 8 characters !",
                     Toast.LENGTH_SHORT).show();
+
 
             return false;
         }
